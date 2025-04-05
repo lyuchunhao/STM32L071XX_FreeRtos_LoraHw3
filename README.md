@@ -1,4 +1,5 @@
 # STM32L071XX_FreeRtos_LoraHw3
+# STM32L071xx_FreeRtos_LoraHw3_Ver1.0.2  2025-04-05上传提交
 
 #### 介绍
 {**以下是 Gitee 平台说明，您可以替换此简介**
