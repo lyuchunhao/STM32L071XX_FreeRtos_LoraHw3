@@ -1,0 +1,1 @@
+stm32l071xx_freertos_lorahw3_verx.x.x\startup_stm32l071xx.o: startup_stm32l071xx.s

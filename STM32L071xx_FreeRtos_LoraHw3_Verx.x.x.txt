@@ -1,0 +1,81 @@
+Configuration	STM32L071xx_FreeRtos_LoraHw3_Verx.x.x
+STM32CubeMX 	4.18.0
+Date	11/13/2017
+MCU	STM32L071CBTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC	IN6	ADC_IN6	PA6
+ADC	IN7	ADC_IN7	PA7
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PH0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PH1-OSC_OUT
+RTC	Activate RTC Clock Source	RTC_VS_RTC_Activate	VP_RTC_VS_RTC_Activate
+RTC	RTC Enabled	RTC_VS_RTC_Calendar	VP_RTC_VS_RTC_Calendar
+RTC	Internal Alarm A	RTC_VS_RTC_Alarm_A_Intern	VP_RTC_VS_RTC_Alarm_A_Intern
+RTC	Internal Alarm B	RTC_VS_RTC_Alarm_B_Intern	VP_RTC_VS_RTC_Alarm_B_Intern
+SYS	Serial_Wire	SYS_SWCLK	PA14
+SYS	Serial_Wire	SYS_SWDIO	PA13
+SYS	TIM2	SYS_VS_tim2	VP_SYS_VS_tim2
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+USART2	Asynchronous	USART2_RX	PA3
+USART2	Asynchronous	USART2_TX	PA2
+USART4	Asynchronous	USART4_RX	PA1
+USART4	Asynchronous	USART4_TX	PA0
+USART5	Asynchronous	USART5_RX	PB4
+USART5	Asynchronous	USART5_TX	PB3
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+5	PH0-OSC_IN	RCC_OSC_IN	
+6	PH1-OSC_OUT	RCC_OSC_OUT	
+10	PA0	USART4_TX	STM32_UART4_Tx
+11	PA1	USART4_RX	STM32_UART4_Rx
+12	PA2	USART2_TX	STM32_UART2_Tx
+13	PA3	USART2_RX	STM32_UART2_Rx
+16	PA6	ADC_IN6	Voltage_ADCIN6
+17	PA7	ADC_IN7	Current_ADCIN7
+25	PB12	GPIO_Output	Hart_DATA
+26	PB13	GPIO_Output	Hart_CLOCK
+28	PB15	GPIO_Output	Hart_LATCH
+29	PA8	GPIO_Input	Hart_OCD
+30	PA9	USART1_TX	STM32_UART1_Tx
+31	PA10	USART1_RX	STM32_UART1_Rx
+32	PA11	GPIO_Output	Hart_INRTS
+33	PA12	GPIO_Output	Hart_INRESET
+34	PA13	SYS_SWDIO	
+37	PA14	SYS_SWCLK	
+38	PA15	GPIO_Output	Lora_RQ
+39	PB3	USART5_TX	STM32_UART5_Tx
+40	PB4	USART5_RX	STM32_UART5_Rx
+41	PB5	GPIO_Output	Lora_RST
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : STM32L071xx_FreeRtos_LoraHw3_Verx.x.x
+Project Folder : C:\Users\lvchunhao\Desktop\STM32L071xx_FreeRtos_LoraHw3_Ver1.0.0
+Toolchain / IDE : MDK-ARM V5
+Firmware Package Name and Version : STM32Cube FW_L0 V1.7.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy all used libraries into the project folder
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : Balanced Size/Speed
+
+
+
+
+
+
